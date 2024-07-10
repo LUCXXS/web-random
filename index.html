@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página para Matar el Aburrimiento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a la Página para Matar el Aburrimiento</h1>
+        <nav>
+            <ul>
+                <li><a href="#games">Juegos</a></li>
+                <li><a href="#jokes">Chistes</a></li>
+                <li><a href="#videos">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="games">
+        <h2>Juegos</h2>
+        <button onclick="playGame()">Jugar</button>
+        <div id="gameArea"></div>
+    </section>
+    
+    <section id="jokes">
+        <h2>Chistes</h2>
+        <button onclick="showJoke()">Mostrar un Chiste</button>
+        <p id="joke"></p>
+    </section>
+    
+    <section id="videos">
+        <h2>Videos</h2>
+        <button onclick="showVideo()">Ver un Video Divertido</button>
+        <div id="videoArea"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
